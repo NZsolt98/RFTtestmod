@@ -24,5 +24,14 @@ namespace Test.Items.Ranged
 			item.shootSpeed = 15f;                  //The speed of the projectile
 			item.ammo = AmmoID.Arrow;              //The ammo class this ammo belongs to.
 		}
+
+		public override void AddRecipes() {
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ItemID.WoodenArrow, 50);
+			recipe.AddIngredient(ItemID.CrystalShard, 5);
+			recipe.AddTile(TileID.Anvils);
+			recipe.SetResult(this, 50);
+			recipe.AddRecipe();
+		}
 	}
 }
