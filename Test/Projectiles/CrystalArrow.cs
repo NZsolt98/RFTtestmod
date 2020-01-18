@@ -27,5 +27,10 @@ namespace Test.Projectiles
       projectile.tileCollide = true;
       aiType = ProjectileID.WoodenArrowFriendly;
       }
+      public override bool PreKill(int timeLeft) {
+          projectile.type = ProjectileID.CrystalPulse;
+          projectile.damage = 21;
+          return true;
+        }
       }
 }
