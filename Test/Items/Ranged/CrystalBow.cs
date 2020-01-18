@@ -44,5 +44,14 @@ namespace Test.Items.Ranged
 			Projectile.NewProjectile(position.X, position.Y, speedX, speedY, mod.ProjectileType<Projectiles.CrystalArrow>(), damage, knockBack, player.whoAmI, 0f, 0f);
 			return false;
 		}
+		
+		public override void AddRecipes() {
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ItemID.MoltenFury, 1);
+			recipe.AddIngredient(ItemID.IceBlock, 50);
+			recipe.AddTile(TileID.Anvils);
+			recipe.SetResult(this);
+			recipe.AddRecipe();
+		}
 	}
 }
