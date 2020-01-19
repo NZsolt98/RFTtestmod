@@ -16,31 +16,31 @@ namespace Test.Items.Magic
 		}
 
 		public override void SetDefaults() {
-			item.damage = 73;
+			item.damage = 88;
 			item.magic = true;
-			item.mana = 10;
-			item.width = 28;
+			item.mana = 30;
+			item.width = 25;
 			item.height = 30;
-			item.useTime = 25;
-			item.useAnimation = 25;
+			item.useTime = 40;
+			item.useAnimation = 30;
 			item.useStyle = 4;
 			item.noMelee = true;
-			item.knockBack = 2;
-			item.value = Item.buyPrice(gold: 5);
-			item.rare = 5;
+			item.knockBack = 7;
+			item.value = Item.buyPrice(gold: 300);
+			item.rare = 9;
 			item.UseSound = SoundID.Item30;
 			item.autoReuse = true;
 		 	item.shoot = mod.ProjectileType("IceBall");
-			item.shootSpeed = 35f;
+			item.shootSpeed = 50f;
 		}
 
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.SpellTome, 1);
-			recipe.AddIngredient(ItemID.IceBlock, 10);
-			recipe.AddIngredient(ItemID.SoulofFright, 5);
-			recipe.AddIngredient(ItemID.SoulofSight, 5);
-			recipe.AddIngredient(ItemID.SoulofMight, 5);
+			recipe.AddIngredient(ItemID.SpellTome, 2);
+			recipe.AddIngredient(ItemID.IceBlock, 12);
+			recipe.AddIngredient(ItemID.SoulofFright, 8);
+			recipe.AddIngredient(ItemID.SoulofSight, 8);
+			recipe.AddIngredient(ItemID.SoulofMight, 8);
 			recipe.AddTile(TileID.Bookcases);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
@@ -88,7 +88,7 @@ namespace Test.Items.Magic
 
         public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
         {
-            target.AddBuff(BuffID.Frostburn, 120); 
+            target.AddBuff(BuffID.Frostburn, 150); 
 		}
 
     }
