@@ -33,6 +33,26 @@ Items/Ranged:
 
 	Teardown: Egy komplex íj, 4 nyílvesszőt lő ki egyszerre. Ha egy ellenséggel érinkezik akkor figyelembe veszi a játékos és a célpont pozícióját, és ezáltal mindig a 		játékostól a célpont távolabbi oldalára helyez egy karmot ami a a létrehozás pillanatában a játékos felé veszi az irányt és mindenkit sebez míg a karom el nem tűnik. 		(Karom animációja nincs kész)
 
+Items/Magic:
+	Frost Sickle: Egér pozíciójától függöen az égből fagyos kasza fej darabokat szór, terepen áthalad.
+
+	Snow Rod: Ki bocsált egy felhőt a kurzor helyére, és létrehoz egy havazó felhőt. Elenség ki alatta ál sebzés éri. 
+
+	Tome Of Iceball: A kurzor irányába 13 fok eltéréssel lő 4 db jéglabdát. Vizen áthalad, terepben megakad, 1 elleségen megy keresztül a 2. ban megáll.
+
+Items/MagicMissile:
+	Mind a Frost missile -nak egy fejlesztetteb változata. Sorrend: Frost -> CorrupticFrost/CrimonicFrost -> RottenFrost -> Spirit -> Lunatic
+
+	Elsütés után követi a kurzor mozgását addig míg el nem engedi a játékos, ha elengette akkor a karakter középontjától ellentétes irányba szál a lövedék. 
+
+	Terepen és ellenség érintésénél felrobban. 
+
+	Midnegyik fejlesztés robbanás pillanatában már hatást fejt ki az ellenségre. 
+
+	A Spirit- és Lunatic- -ban, egyik fejlesztés nem működik.
+
+	Lunatic esetén még a mana használat is változik napszaktól függően.
+
 Projectiles: Azok a fegyvereknek amik lőnek valamit és nem az alapjátékból használ lövedéket, azt innen hívja meg.
 
 NPCs: Alap zombi ellenség.
