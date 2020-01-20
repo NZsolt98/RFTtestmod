@@ -1,0 +1,28 @@
+Kövspec:
+
+Cél több különböző tipusú eszköz létrehozása. Mindegyik osztályra létrehozni legalább egyet, egyediség és különbség miatt.
+Megvalósítani fegyvereket melyek különböző szituációkban használhatók.
+Minden osztály más sebzéssel rendelkezik(magic, melee, ranged, summon), ezekhez hozzunk létre egy egy használható fegyvert, 
+a játék előrehaladtával lényegtelen mikor lehessen hozzáférni.
+
+Megvalósításból az idézői(summon) osztályt kihagytuk, egyenlőre túl halad minket.
+
+Vágyálom: Saját magunk tesztelése, fejlesztése mind programozás mind csapatmunka szempontjából illetve a játékélmény javítása új itemekkel,eszközökkel.
+
+Items/Melee:
+	Crystal Sickle: A kurzor irányába mind az égből mind a karakter pozíciójából fagyott kaszát lő ki.
+
+	Frozen Sickle: Csak a karakterből lő ki a kurzor irányába.
+
+	Ice Brand: Jobb klikkel kurzor irányába 2 db jég darabot lő ki. Bal klikkel egyszerű támadás.
+
+	Ice Sword: Legalapabb modolt fegyver, megsebzett ellenségre "forstburn" effektet fejt ki 1 mp.
+
+	True North Blade: Kurzor irányába jeget lő, 3 ellenségen halad át 4. ben megáll és felrobban körülötte sebezve mindenkit. Terepben megakad.
+
+	Yoyo: Alap yoyo még fejlesztés alatt.
+
+
+Projectiles: Azok a fegyvereknek amik lőnek valamit és nem az alapjátékból használ lövedéket, azt innen hívja meg.
+
+NPCs: Alap zombi ellenség.
