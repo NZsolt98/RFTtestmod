@@ -1,0 +1,39 @@
+1. A rendszer céljai:
+	Új fegyverek hozzáadása a játékba, a már meglévők mellé.
+	Mely még érdekesebbé teszi a játékkal eltölött időt, ezen fegyverek több kategóriában kerülnek létrehozásra(magic, melee, ranged). Ezen fegyverekhez akár a játék első percétől kezdve használhatóak.
+
+2.  jelenlegi helyzet
+	A tervezettel készen vagyunk mindenki által el lett, fogadva és a fegyverek leprogramozása megkezdődött.
+
+3. Vágyálom
+	Saját magunk tesztelése, fejlesztése mind programozás mind csapatmunka szempontjából illetve a játékélmény javítása itemekkel,eszközökkel.
+
+	Items/Magic:
+	Frost Sickle: Egér pozíciójától függöen az égből fagyos kasza fej darabokat szór, terepen áthalad.
+
+	Snow Rod: Ki bocsált egy felhőt a kurzor helyére, és létrehoz egy havazó felhőt. Elenség ki alatta ál sebzés éri. 
+
+	Tome Of Iceball: A kurzor irányába 13 fok eltéréssel lő 4 db jéglabdát. Vizen áthalad, terepben megakad, 1 elleségen megy keresztül a 2. ban megáll.
+
+Items/MagicMissile:
+	Mind a Frost missile -nak egy fejlesztetteb változata. Sorrend: Frost -> CorrupticFrost/CrimonicFrost -> RottenFrost -> Spirit -> Lunatic
+
+	Elsütés után követi a kurzor mozgását addig míg el nem engedi a játékos, ha elengette akkor a karakter középontjától ellentétes irányba szál a lövedék. 
+
+	Terepen és ellenség érintésénél felrobban. 
+
+	Midnegyik fejlesztés robbanás pillanatában már hatást fejt ki az ellenségre. 
+
+	A Spirit- és Lunatic- -ban, egyik fejlesztés nem működik.
+
+	Lunatic esetén még a mana használat is változik napszaktól függően.
+
+
+4. Külső megszorítások
+	A modifikációra nem vonatkozik semmilyen külső megszorítás, teljesen szabadon használható.
+
+5. Jelenlegi üzleti folyamatok modellje
+	A modifikáció a jelenlegi tervek szerint teljesen ingyenesen használható.
+
+6. Igényelt üzleti folyamatok modellje
+	A modifikáció teljesen ingyenesen készül.
