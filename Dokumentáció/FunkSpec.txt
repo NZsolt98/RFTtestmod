@@ -8,7 +8,7 @@
 3. Vágyálom
 	Saját magunk tesztelése, fejlesztése mind programozás mind csapatmunka szempontjából illetve a játékélmény javítása itemekkel,eszközökkel.
 	
-	Items/Melee:
+Items/Melee:
 	Crystal Sickle: A kurzor irányába mind az égből mind a karakter pozíciójából fagyott kaszát lő ki.
 
 	Frozen Sickle: Csak a karakterből lő ki a kurzor irányába.
@@ -21,7 +21,7 @@
 
 	Yoyo: Alap yoyo még fejlesztés alatt.
 
-	Items/Magic:
+Items/Magic:
 	Frost Sickle: Egér pozíciójától függöen az égből fagyos kasza fej darabokat szór, terepen áthalad.
 
 	Snow Rod: Ki bocsált egy felhőt a kurzor helyére, és létrehoz egy havazó felhőt. Elenség ki alatta ál sebzés éri. 
@@ -40,6 +40,17 @@ Items/MagicMissile:
 	A Spirit- és Lunatic- -ban, egyik fejlesztés nem működik.
 
 	Lunatic esetén még a mana használat is változik napszaktól függően.
+
+Items/Ranged:
+	Crystal Arrow: Külön fajta nyílvessző. Érintkezéskor kristály darabokat bocsájt ki.
+
+	Crystal Bow: Alap íj, ami minden fajta nyílvesszőt Crystal Arrow -á alakítja.
+
+	Hydra Blaster: Alap pisztoly ami a simma lőszert átalakítja Ice Crystal Bullet -é.
+
+	Ice Crystal Bullet: Az alapjáték Crystal Bullet -ének egy gyengébb, korábban hozzáférhető lőszere.
+
+	Teardown: Egy komplex íj, 4 nyílvesszőt lő ki egyszerre. Ha egy ellenséggel érinkezik akkor figyelembe veszi a játékos és a célpont pozícióját, és ezáltal mindig a 		játékostól a célpont távolabbi oldalára helyez egy karmot ami a a létrehozás pillanatában a játékos felé veszi az irányt és mindenkit sebez míg a karom el nem tűnik. 		(Karom animációja nincs kész)
 
 
 4. Külső megszorítások
