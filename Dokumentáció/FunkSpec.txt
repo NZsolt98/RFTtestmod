@@ -7,6 +7,19 @@
 
 3. Vágyálom
 	Saját magunk tesztelése, fejlesztése mind programozás mind csapatmunka szempontjából illetve a játékélmény javítása itemekkel,eszközökkel.
+	
+	Items/Melee:
+	Crystal Sickle: A kurzor irányába mind az égből mind a karakter pozíciójából fagyott kaszát lő ki.
+
+	Frozen Sickle: Csak a karakterből lő ki a kurzor irányába.
+
+	Ice Brand: Jobb klikkel kurzor irányába 2 db jég darabot lő ki. Bal klikkel egyszerű támadás.
+
+	Ice Sword: Legalapabb modolt fegyver, megsebzett ellenségre "forstburn" effektet fejt ki 1 mp.
+
+	True North Blade: Kurzor irányába jeget lő, 3 ellenségen halad át 4. ben megáll és felrobban körülötte sebezve mindenkit. Terepben megakad.
+
+	Yoyo: Alap yoyo még fejlesztés alatt.
 
 	Items/Magic:
 	Frost Sickle: Egér pozíciójától függöen az égből fagyos kasza fej darabokat szór, terepen áthalad.
